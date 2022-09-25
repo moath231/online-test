@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #ccc;
+}
+
+.fram {
+  background-color: white;
+  width: 800px;
+  margin: 200px auto;
+
+  .counter {
+    padding: 15px;
+
+    .head {
+      padding: 15px;
+      background-color: #f8f8f8;
+      #hleft {
+        flex: 1;
+      }
+      #hright {
+        flex: 1;
+        float: right;
+      }
+    }
+    .body {
+      background-color: #f8f8f8;
+      margin-top: 9px;
+      .question_area {
+        padding: 15px;
+        background-color: #f9f9f9;
+      }
+      .option_area {
+        .answer {
+          padding: 15px;
+        }
+        .answer:not(:last-child) {
+          border-bottom: 1px solid #dfdfdf;
+        }
+        .answer input[type="radio"]:checked + label {
+          color: #0075ff;
+        }
+
+        label {
+          position: relative;
+          top: -2px;
+          font-weight: bold;
+          margin-left: 12px;
+          font-size: 16px;
+        }
+      }
+      .option_area .answer:hover {
+        background-color: #ddd;
+      }
+    }
+    .footer {
+      margin-top: 29px;
+      input {
+        width: 100%;
+        padding: 10px 15px;
+        border: none;
+        background-color: #0075ff;
+        border-radius: 7px;
+        display: block;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        cursor: pointer;
+        margin: 0 auto;
+      }
+      input:hover {
+        background-color: #1d5ea8;
+        padding-top: 13px;
+        font-size: 20px;
+      }
+      .bullet {
+        margin-top: 12px;
+        background-color: #f9f9f9;
+        padding: 15px;
+        display: flex;
+        border-top: 1px solid #dfdfdf;
+
+        .bulletcircel {
+          flex: 1;
+          display: flex;
+          span {
+            width: 20px;
+            height: 20px;
+            background-color: #ddd;
+            border-radius: 50%;
+            margin-right: 5px;
+          }
+          .on {
+            background-color: #0075ff;
+          }
+        }
+      }
+    }
+
+    .result {
+      padding: 15px;
+      background-color: #f9f9f9;
+      span{
+        font-weight: bold;
+      }
+      span.perfuct{
+        color: green;
+      }
+      span.good{
+        color: #0075ff;
+      }
+      span.bad{
+        color: red;
+      }
+    }
+  }
+}

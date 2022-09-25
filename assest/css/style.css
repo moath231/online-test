@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ccc;
+}
+
+.fram {
+  background-color: white;
+  width: 800px;
+  margin: 200px auto;
+}
+.fram .counter {
+  padding: 15px;
+}
+.fram .counter .head {
+  padding: 15px;
+  background-color: #f8f8f8;
+}
+.fram .counter .head #hleft {
+  flex: 1;
+}
+.fram .counter .head #hright {
+  flex: 1;
+  float: right;
+}
+.fram .counter .body {
+  background-color: #f8f8f8;
+  margin-top: 9px;
+}
+.fram .counter .body .question_area {
+  padding: 15px;
+  background-color: #f9f9f9;
+}
+.fram .counter .body .option_area .answer {
+  padding: 15px;
+}
+.fram .counter .body .option_area .answer:not(:last-child) {
+  border-bottom: 1px solid #dfdfdf;
+}
+.fram .counter .body .option_area .answer input[type=radio]:checked + label {
+  color: #0075ff;
+}
+.fram .counter .body .option_area label {
+  position: relative;
+  top: -2px;
+  font-weight: bold;
+  margin-left: 12px;
+  font-size: 16px;
+}
+.fram .counter .body .option_area .answer:hover {
+  background-color: #ddd;
+}
+.fram .counter .footer {
+  margin-top: 29px;
+}
+.fram .counter .footer input {
+  width: 100%;
+  padding: 10px 15px;
+  border: none;
+  background-color: #0075ff;
+  border-radius: 7px;
+  display: block;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 0 auto;
+}
+.fram .counter .footer input:hover {
+  background-color: #1d5ea8;
+  padding-top: 13px;
+  font-size: 20px;
+}
+.fram .counter .footer .bullet {
+  margin-top: 12px;
+  background-color: #f9f9f9;
+  padding: 15px;
+  display: flex;
+  border-top: 1px solid #dfdfdf;
+}
+.fram .counter .footer .bullet .bulletcircel {
+  flex: 1;
+  display: flex;
+}
+.fram .counter .footer .bullet .bulletcircel span {
+  width: 20px;
+  height: 20px;
+  background-color: #ddd;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.fram .counter .footer .bullet .bulletcircel .on {
+  background-color: #0075ff;
+}
+.fram .counter .result {
+  padding: 15px;
+  background-color: #f9f9f9;
+}
+.fram .counter .result span {
+  font-weight: bold;
+}
+.fram .counter .result span.perfuct {
+  color: green;
+}
+.fram .counter .result span.good {
+  color: #0075ff;
+}
+.fram .counter .result span.bad {
+  color: red;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,84 @@
+[
+  {
+    "title": "What do you understand by HTML?",
+    "option_1": "HTML describes the structure of a webpage",
+    "option_2": "HTML is the standard markup language mainly used to create web pages",
+    "option_3":"HTML consists of a set of elements that helps the browser how to view the content",
+    "option_4":"All of the above",
+    "correct_option": "All of the above"
+
+  },
+  {
+    "title": "Who is the father of HTML?",
+    "option_1": "Rasmus Lerdorf",
+    "option_2": "Tim Berners-Lee",
+    "option_3": "Brendan Eich",
+    "option_4": "Sergey Brin",
+    "correct_option": "Tim Berners-Lee"
+  },
+  {
+    "title": "HTML stands for ___",
+    "option_1": "HyperText Markup Language",
+    "option_2": "HyperText Machine Language",
+    "option_3": "HyperText Marking Language",
+    "option_4": "HighText Marking Language",
+    "correct_option": "HyperText Markup Language"
+  },
+  {
+    "title": "Which is used to read an HTML page and render it?",
+    "option_1": "Web server",
+    "option_2": "Web network",
+    "option_3": "Web browser",
+    "option_4": "Web matrix",
+    "correct_option": "Web browser"
+  },
+  {
+    "title": "Which tag is used for inserting the largest heading in HTML?",
+    "option_1": "head",
+    "option_2": "<h1>",
+    "option_3": "<h6>",
+    "option_4": "heading",
+    "correct_option": "<h1>"
+  },
+  {
+    "title": "Which is used to create Web Pages ?",
+    "option_1": "C++",
+    "option_2": "Java",
+    "option_3": "HTML",
+    "option_4": "JVM",
+    "correct_option": "HTML"
+  },
+  {
+    "title": "HTML is a set of markup ___.",
+    "option_1": "tags",
+    "option_2": "sets",
+    "option_3": "attributes",
+    "option_4": "none of the above",
+    "correct_option": "tags"
+  },
+  {
+    "title": "HTML tags are used to describe document ___.",
+    "option_1": "definition",
+    "option_2": "content",
+    "option_3": "language",
+    "option_4": "model",
+    "correct_option": "content"
+  },
+  {
+    "title": "HTML program is saved using ___ extension.",
+    "option_1": ".htmn",
+    "option_2": ".html",
+    "option_3": ".htnl",
+    "option_4": ".htnl",
+    "correct_option": ".html"
+  },
+  {
+    "title": "HTML program can be read and rendered by ___.",
+    "option_1": "Compiler",
+    "option_2": "Server",
+    "option_3": "Web Browser",
+    "option_4": "Interpreter",
+    "correct_option": "Web Browser"
+  }
+
+]
